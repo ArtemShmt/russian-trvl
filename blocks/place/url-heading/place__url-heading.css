@@ -1,0 +1,19 @@
+.place__url-heading {
+    color: #aaa;
+    font-size: 12px;
+    line-height: 170%;
+    letter-spacing: 0.2em;
+}
+
+@media only screen and (max-width: 767px) {
+    .place__url-heading {
+      display: none;
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .place__url-heading {
+    font-size: 12px;
+    line-height: 12px;
+    }
+}
